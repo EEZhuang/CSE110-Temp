@@ -2,7 +2,7 @@ package edu.ucsd.cs110.temperature;
 
 public class Fahrenheit extends Temperature
 {
-    public loat t)
+    public Fahrenheit(float t)
     {
         super(t);
     }
