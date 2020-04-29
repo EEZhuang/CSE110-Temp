@@ -29,7 +29,7 @@ public class CelsiusTest extends TestCase{
         assertTrue(string.endsWith(ending));
 
         // Verify the middle of the formatted string
-        int endIndex = string.indexOf(ending);
+        int endIndex = string.indexOf(0);
 
         // (Hint: what is the length of the middle of the string?)
         assertTrue(string.substring(0, endIndex).equals(beginning));
